@@ -1,7 +1,7 @@
 ```markdown
 # Web Scraper
 
-This Python script scrapes article titles and links from a website using BeautifulSoup and saves them to a CSV file.
+This Python script scrapes article titles and links from a openAI/blog website using BeautifulSoup and saves them to a CSV file.
 
 ## Installation
 
