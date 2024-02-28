@@ -82,7 +82,7 @@ def plot_circular_outward(data_for_plot, prompt, bg_colour, font_colour, line_co
     # Title and footer
     ax.text(center_x - 0.3, center_y, prompt_print, va="center", ha="right",
             fontsize=50, fontproperties=letter_font, color=font_colour)
-    ax.text(center_x - 0.3, center_y - 5, "Google autocomplete\nsuggestions", va="center", ha="right",
+    ax.text(center_x - 0.3, center_y - 5, "Visualization", va="center", ha="right",
             fontsize=15, fontproperties=subtitle_font, color=font_colour)
 
     if sum(data_for_plot["result"].str.find("*")) != -26:
